@@ -44,7 +44,7 @@ The Gemini Health App is designed to help users estimate the total calories in t
 ## Setup
 --------
 
-1.  Clone the repository: `git clone https://github.com/your-username/gemini-health-app.git`
+1.  Clone the repository: `git clone https://github.com/vjymisal0/Food-Calories-Classification.git`
 2.  Install required dependencies: `pip install -r requirements.txt`
 3.  Create a `.env` file with your Google Cloud API key: `GOOGLE_API_KEY=your-api-key`
 4.  Load environment variables: `load_dotenv()`
