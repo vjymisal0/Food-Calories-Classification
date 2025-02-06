@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gemini Health App</title>
+</head>
+<body>
+    <h1>Upload an image to analyze calories</h1>
+    <form action="/analyze" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" required><br><br>
+        <input type="text" name="input" placeholder="Enter additional details..."><br><br>
+        <button type="submit">Analyze</button>
+    </form>
+</body>
+</html>
